@@ -1,2 +1,2 @@
 # api-skeleton
-Very basic API skeleton as a starter for a nodejs REST API project.
+Very basic skeleton as a starter for a nodejs REST API project.
