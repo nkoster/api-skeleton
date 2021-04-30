@@ -1,2 +1,3 @@
 # api-skeleton
-API Skeleton
+Very basic API Skeleton as a starter.
+
