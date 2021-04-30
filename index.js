@@ -14,7 +14,7 @@
     res.send(JSON.stringify(req.body))
   }
 
-  app.post('/api/v1/kafka', api)
+  app.post('/api/v1/endpoint', api)
 
   app.listen(apiPort, _ => console.log('Listening at port', apiPort))
 
