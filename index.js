@@ -10,8 +10,9 @@
   app.use(express.json())
   
   const api = async (req, res) => {
+    console.log(req.body)
     res.setHeader('Content-Type', 'application/json')
-    res.send(JSON.stringify(req.body))
+    res.send(req.body)
   }
 
   app.post('/api/v1/endpoint', api)
